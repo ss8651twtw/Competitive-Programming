@@ -15,15 +15,6 @@ void change(char (&s)[10][10],int i,int j){
 	if(!out(i,j-1))s[i][j-1]=line(s[i][j-1]);
 	if(!out(i,j+1))s[i][j+1]=line(s[i][j+1]);
 }
-void print(char (&s)[10][10]){
-	puts("---print---");
-	for(int i=0;i<10;i++){
-		for(int j=0;j<10;j++)
-		printf("%c",s[i][j]);
-		puts("");
-	}
-	puts("---print---");
-}
 int sol(){
 	char tmp[10][10];
 	memcpy(tmp,map,sizeof(map));
