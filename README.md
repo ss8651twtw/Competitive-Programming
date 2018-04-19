@@ -1,1 +1,3 @@
-#cp2_2016
+# Competitive-Programming
+
+- some training problems and solutions
